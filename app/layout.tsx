@@ -1,13 +1,16 @@
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
 import "./globals.css"
 
-const inter = Inter({ subsets: ["latin"] })
-
 export const metadata: Metadata = {
-  title: "AI Video Platform - Create & Edit Videos with AI",
+  title: "AI Video Platform — AI Video Creation for iPhone & iPad",
   description:
-    "Generate stunning videos from text prompts and edit with powerful AI tools. Available on iOS.",
+    "The only AI video app you'll ever need. Generate stunning videos from text, edit with powerful AI tools, and export in 4K. Available on the App Store.",
+  openGraph: {
+    title: "AI Video Platform — AI Video Creation for iPhone & iPad",
+    description:
+      "Generate stunning videos from text, edit with powerful AI tools, and export in 4K.",
+    type: "website",
+  },
 }
 
 export default function RootLayout({
@@ -17,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className="antialiased">{children}</body>
     </html>
   )
 }

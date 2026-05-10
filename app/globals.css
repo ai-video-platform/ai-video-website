@@ -3,21 +3,48 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
   body {
-    @apply bg-dark text-white antialiased;
+    @apply bg-white text-text-primary;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+      "Inter", system-ui, sans-serif;
+  }
+
+  ::selection {
+    @apply bg-brand-200 text-brand-700;
   }
 }
 
 @layer components {
-  .gradient-text {
-    @apply bg-gradient-to-r from-primary via-accent to-purple-400 bg-clip-text text-transparent;
+  .section-padding {
+    @apply px-6 py-24 md:py-32 lg:py-40;
   }
 
-  .glow {
-    box-shadow: 0 0 40px rgba(99, 102, 241, 0.3), 0 0 80px rgba(99, 102, 241, 0.1);
+  .container-narrow {
+    @apply mx-auto max-w-3xl;
   }
 
-  .card-hover {
-    @apply transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/20;
+  .heading-xl {
+    @apply text-5xl font-semibold tracking-apple-tighter text-text-primary md:text-6xl lg:text-7xl leading-[1.05];
   }
+
+  .heading-lg {
+    @apply text-3xl font-semibold tracking-apple-tight text-text-primary md:text-4xl lg:text-5xl;
+  }
+
+  .body-lg {
+    @apply text-lg text-text-secondary md:text-xl leading-relaxed;
+  }
+}
+
+/* Subtle grid pattern for some sections */
+.bg-grid {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.02) 1px, transparent 1px);
+  background-size: 60px 60px;
 }
