@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export const metadata: Metadata = {
   title: "Terms of Use — AI Video Platform",
-  description: "Terms of Use for AI Video Platform iOS application.",
+  description: "Terms of Use for the AI Video Platform, Chaty, and UV Index iOS applications.",
 }
 
 export default function TermsOfUse() {
@@ -21,7 +21,7 @@ export default function TermsOfUse() {
           Terms of Use
         </h1>
         <p className="mb-12 text-sm text-text-tertiary">
-          Effective Date: May 10, 2026 &middot; Last Updated: May 10, 2026
+          Effective Date: May 10, 2026 &middot; Last Updated: June 11, 2026
         </p>
 
         <div className="prose-legal space-y-8 text-text-secondary [&_h2]:mb-4 [&_h2]:mt-12 [&_h2]:text-xl [&_h2]:font-semibold [&_h2]:text-text-primary [&_h3]:mb-2 [&_h3]:mt-6 [&_h3]:text-base [&_h3]:font-semibold [&_h3]:text-text-primary [&_p]:leading-relaxed [&_ul]:ml-4 [&_ul]:list-disc [&_ul]:space-y-1 [&_li]:leading-relaxed">
@@ -314,7 +314,7 @@ export default function TermsOfUse() {
 
             <h3>12.4 Opt-Out</h3>
             <p>
-              You may opt out of binding arbitration by sending written notice to admin@aivideoplatform.ai within 30 days of first using the Services. Your notice must include your anonymous UID and a clear statement that you wish to opt out.
+              You may opt out of binding arbitration by sending written notice to admin@aivideoplatform.ai within 30 days of first using the Services. Your notice must include your anonymous UID and a clear statement that you wish to opt out. For our apps that have no accounts (Chaty and UV Index), no UID exists; your notice need only identify the app you use and clearly state that you wish to opt out.
             </p>
 
             <h3>12.5 Exceptions</h3>
@@ -396,7 +396,85 @@ export default function TermsOfUse() {
           </section>
 
           <section>
-            <h2>17. Contact Us</h2>
+            <h2>17. Chaty iOS App</h2>
+            <p>
+              The following additional terms apply specifically to the Chaty iOS application (&ldquo;Chaty&rdquo;), also published by AI Video Platform. These Terms govern your download and use of Chaty, and references to the &ldquo;App&rdquo; and the &ldquo;Services&rdquo; in these Terms include Chaty except as modified in this section. Where this section conflicts with other provisions in these Terms, this section governs with respect to Chaty.
+            </p>
+
+            <h3>17.1 AI-Generated Content Disclaimer</h3>
+            <p>
+              Chaty uses an on-device AI model (Chaty-1) to generate text responses. You acknowledge and agree that:
+            </p>
+            <ul>
+              <li>AI-generated outputs may be inaccurate, incomplete, misleading, or inappropriate</li>
+              <li>The AI model has no access to the internet or real-time information</li>
+              <li>You must not rely on Chaty&rsquo;s outputs for medical, legal, financial, or safety-critical decisions</li>
+              <li>We make no representations regarding the accuracy, reliability, or suitability of any AI-generated content</li>
+            </ul>
+
+            <h3>17.2 User Responsibility</h3>
+            <p>
+              You are solely responsible for how you use, interpret, and act upon AI-generated content produced by Chaty. You should independently verify any information provided by the AI before relying on it.
+            </p>
+
+            <h3>17.3 No Warranty</h3>
+            <p>
+              CHATY AND THE BUNDLED AI MODEL (CHATY-1) ARE PROVIDED &ldquo;AS IS&rdquo; AND &ldquo;AS AVAILABLE&rdquo; WITHOUT WARRANTY OF ANY KIND, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, AND NON-INFRINGEMENT.
+            </p>
+
+            <h3>17.4 Acceptable Use</h3>
+            <p>By using Chaty, you agree that you will not:</p>
+            <ul>
+              <li>Attempt to extract, copy, reverse-engineer, decompile, disassemble, or redistribute the bundled AI model (Chaty-1) in whole or in part</li>
+              <li>Use the app to generate content that is illegal, harmful, abusive, or violates the rights of others</li>
+              <li>Attempt to circumvent any technical protections or restrictions in the app</li>
+            </ul>
+
+            <h3>17.5 Intellectual Property</h3>
+            <p>
+              The Chaty application, its user interface, design, and the bundled Chaty-1 model are the intellectual property of AI Video Platform and are protected by applicable intellectual property laws. All conversation data generated within Chaty belongs to you and remains stored exclusively on your device.
+            </p>
+
+            <h3>17.6 Limitation of Liability</h3>
+            <p>
+              TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, AI VIDEO PLATFORM SHALL NOT BE LIABLE FOR ANY DAMAGES ARISING FROM OR RELATED TO AI-GENERATED CONTENT PRODUCED BY CHATY, INCLUDING BUT NOT LIMITED TO DAMAGES RESULTING FROM RELIANCE ON INACCURATE, INCOMPLETE, OR INAPPROPRIATE OUTPUTS. THE TOTAL AGGREGATE LIABILITY FOR ALL CLAIMS RELATING TO CHATY SHALL NOT EXCEED ONE HUNDRED U.S. DOLLARS (US $100.00).
+            </p>
+          </section>
+
+          <section>
+            <h2>18. UV Index iOS App</h2>
+            <p>
+              The following additional terms apply specifically to the UV Index iOS application (&ldquo;UV Index&rdquo;), the sun and UV forecast app also published by AI Video Platform. These Terms govern your download and use of UV Index, and references to the &ldquo;App&rdquo; and the &ldquo;Services&rdquo; in these Terms include UV Index except as modified in this section. Where this section conflicts with other provisions in these Terms, this section governs with respect to UV Index. UV Index is free and contains no accounts, credits, subscriptions, or purchases, so Sections 2 and 4 do not apply to it. The 17+ age requirement in Section 1 applies to the AI Video Platform App; you may use UV Index if you meet its App Store age rating, and if you are under the age of majority in your jurisdiction, you may use UV Index only if a parent or legal guardian reviews and accepts these Terms on your behalf.
+            </p>
+
+            <h3>18.1 What UV Index Does</h3>
+            <p>
+              UV Index shows the UV forecast for a location, estimates how long your skin type can be in the sun before burning, suggests gentler sun windows, and can log finished sun sessions to Apple Health. Forecast data comes from the Open-Meteo weather service, with Apple Weather as an automatic backup, and, like any forecast, it can be wrong or out of date.
+            </p>
+
+            <h3>18.2 Not Medical Advice</h3>
+            <p>
+              UV Index provides general informational estimates based on the published UV index, your selected skin type, and your selected SPF. It is not a medical device, it does not measure your skin or your actual UV exposure, and it does not provide medical advice, diagnosis, or treatment. Estimates can be inaccurate for many reasons, including local conditions, reflections, altitude, medication, and individual skin differences. Always exercise your own judgment in the sun, and consult a qualified physician for any medical concern, especially if you have fair skin, many moles, photosensitivity, or any history of skin cancer. No tan is risk free.
+            </p>
+
+            <h3>18.3 Assumption of Risk and Limitation of Liability</h3>
+            <p>
+              Sun exposure carries inherent risks, including sunburn, premature skin aging, and skin cancer. You are solely responsible for your sun exposure decisions. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, AI VIDEO PLATFORM SHALL NOT BE LIABLE FOR ANY PERSONAL INJURY, INCLUDING SUNBURN OR OTHER SUN RELATED HARM, ARISING FROM YOUR USE OF OR RELIANCE ON UV INDEX. THE TOTAL AGGREGATE LIABILITY FOR ALL CLAIMS RELATING TO UV INDEX SHALL NOT EXCEED ONE HUNDRED U.S. DOLLARS (US $100.00).
+            </p>
+
+            <h3>18.4 Weather Data</h3>
+            <p>
+              Forecasts are provided by third-party services: Open-Meteo, with Apple Weather as an automatic backup. We do not control and are not responsible for their availability or accuracy. Apple Weather data is provided subject to Apple&rsquo;s attribution requirements; see <a href="https://weatherkit.apple.com/legal-attribution.html" className="text-brand-500 hover:underline">Apple Weather data sources</a>.
+            </p>
+
+            <h3>18.5 Apple Health</h3>
+            <p>
+              If you connect Apple Health, UV Index writes your finished sun sessions (time in daylight and UV exposure) to Health on your device. How this data is handled is described in Section 16 of our Privacy Policy.
+            </p>
+          </section>
+
+          <section>
+            <h2>19. Contact Us</h2>
             <p>If you have questions about these Terms of Use, please contact us at:</p>
             <p>
               AI Video Platform<br />

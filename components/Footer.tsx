@@ -86,6 +86,14 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <a
+                  href="/support"
+                  className="text-text-secondary hover:text-text-primary transition-colors"
+                >
+                  Help Center
+                </a>
+              </li>
+              <li>
+                <a
                   href="mailto:admin@aivideoplatform.ai"
                   className="text-text-secondary hover:text-text-primary transition-colors"
                 >
