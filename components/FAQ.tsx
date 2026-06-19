@@ -6,44 +6,44 @@ import AnimatedSection from "./AnimatedSection"
 
 const faqs = [
   {
+    question: "Is AI Video free?",
+    answer:
+      "Yes. AI Video is completely free to download and use. You get free credits every day to generate videos. There are no subscriptions and no in-app purchases.",
+  },
+  {
     question: "How do credits work?",
     answer:
-      "Credits are used each time you generate or edit a video. Video generation costs 1–5 credits depending on length and quality, while editing operations cost 0.5–2 credits. Your subscription includes a set number of credits that refresh each billing cycle.",
+      "Credits are used each time you generate a video. You receive free credits daily, and a credit is refunded automatically if a generation fails. Credits have no monetary value and cannot be purchased.",
   },
   {
-    question: "What happens when I run out of credits?",
+    question: "What can I create?",
     answer:
-      "You can purchase additional credit packs at any time from within the app. One-time credit purchases never expire and can be used alongside your subscription credits. Alternatively, you can wait for your next billing cycle when your subscription credits refresh.",
-  },
-  {
-    question: "Can I cancel my subscription?",
-    answer:
-      "Yes, you can cancel anytime. Go to Settings > [your name] > Subscriptions on your iPhone or iPad. Your subscription will remain active until the end of the current billing period. No partial refunds are provided for unused time.",
-  },
-  {
-    question: "Do unused credits roll over?",
-    answer:
-      "Subscription credits do not roll over — they expire at the end of each billing period and are replaced with a fresh allotment. However, credits purchased as one-time packs never expire and remain in your account until used.",
+      "Put yourself in a viral dance from a single photo, turn a text prompt into a video, or animate a photo. You can create clips in portrait, square, or widescreen and share them anywhere.",
   },
   {
     question: "What devices are supported?",
     answer:
-      "AI Video Platform is available on iPhone and iPad running iOS 16 or later. Your projects sync seamlessly across all your Apple devices via iCloud.",
+      "AI Video is available on iPhone running iOS 17 or later.",
   },
   {
     question: "Is my data private?",
     answer:
-      "Yes. We take your privacy seriously. Your prompts and generated videos are processed securely and are not shared with third parties. Generated content is automatically deleted from our servers after 30 days. Read our full Privacy Policy for details.",
+      "Yes. The app uses anonymous sign-in and does not collect your name, email, or phone number. Generated videos are automatically deleted from our servers after 7 days, and uploaded images within 24 hours. Read our Privacy Policy for details.",
   },
   {
-    question: "What video formats and quality can I export?",
+    question: "How are videos generated?",
     answer:
-      "You can export videos in MP4 or MOV format at resolutions up to 4K (2160p). Videos can be saved directly to your Camera Roll or shared to social media platforms from within the app.",
+      "Videos are generated using third-party AI (OpenAI). Your prompts and images are sent securely for generation and are not used to train AI models.",
   },
   {
-    question: "How long can generated videos be?",
+    question: "How do I save or share my videos?",
     answer:
-      "Each generation produces up to 30 seconds of video. For longer videos, you can generate multiple clips and combine them using the built-in editor. Longer clips use more credits.",
+      "Tap a finished video to view it full screen, then save it to your Camera Roll or share it to social platforms from within the app.",
+  },
+  {
+    question: "Who do I contact for help?",
+    answer:
+      "Email admin@aivideoplatform.ai with your anonymous user ID (available in the app's settings). You can also report any video right inside the app.",
   },
 ]
 

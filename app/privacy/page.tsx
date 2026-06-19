@@ -21,7 +21,7 @@ export default function PrivacyPolicy() {
           Privacy Policy
         </h1>
         <p className="mb-12 text-sm text-text-tertiary">
-          Effective Date: May 10, 2026 &middot; Last Updated: June 11, 2026
+          Effective Date: May 10, 2026 &middot; Last Updated: June 19, 2026
         </p>
 
         <div className="prose-legal space-y-8 text-text-secondary [&_h2]:mb-4 [&_h2]:mt-12 [&_h2]:text-xl [&_h2]:font-semibold [&_h2]:text-text-primary [&_h3]:mb-2 [&_h3]:mt-6 [&_h3]:text-base [&_h3]:font-semibold [&_h3]:text-text-primary [&_p]:leading-relaxed [&_ul]:ml-4 [&_ul]:list-disc [&_ul]:space-y-1 [&_li]:leading-relaxed">
@@ -78,17 +78,9 @@ export default function PrivacyPolicy() {
               <li>Generated video files and associated metadata (resolution, duration, style settings)</li>
             </ul>
 
-            <h3>3.3 Purchase Information</h3>
+            <h3>3.3 Purchases</h3>
             <p>
-              Subscriptions and one-time credit purchases are managed through Adapty (our subscription management platform) and processed via Apple&rsquo;s In-App Purchase system. We receive:
-            </p>
-            <ul>
-              <li>Transaction receipts and purchase history (subscription type, credit packs purchased)</li>
-              <li>Subscription status (active, expired, canceled)</li>
-              <li>Transaction identifiers</li>
-            </ul>
-            <p>
-              We do NOT receive or store your credit card number, bank account details, Apple ID email, or any payment instrument information. All payment processing is handled exclusively by Apple.
+              The App is free. We do not offer subscriptions or in-app purchases, and we do not collect or process any payment, transaction, or billing information.
             </p>
 
             <h3>3.4 Information We Do NOT Collect</h3>
@@ -115,8 +107,6 @@ export default function PrivacyPolicy() {
             </p>
             <ul>
               <li><strong>OpenAI (Sora)</strong> &mdash; Text prompts and uploaded images are sent to OpenAI&rsquo;s API for video generation. Subject to <a href="https://openai.com/policies/privacy-policy" className="text-brand-500 hover:underline">OpenAI&rsquo;s Privacy Policy</a>.</li>
-              <li><strong>Google (Veo)</strong> &mdash; Text prompts and uploaded images are sent to Google&rsquo;s API for video generation. Subject to <a href="https://policies.google.com/privacy" className="text-brand-500 hover:underline">Google&rsquo;s Privacy Policy</a>.</li>
-              <li><strong>xAI (Grok)</strong> &mdash; Text prompts and uploaded images are sent to xAI&rsquo;s API for video generation. Subject to <a href="https://x.ai/legal/privacy-policy" className="text-brand-500 hover:underline">xAI&rsquo;s Privacy Policy</a>.</li>
             </ul>
             <p>
               We act as an intermediary between you and these providers. We send your prompts and images to enable video generation but do not control how these providers process, store, or use data once received. We strongly encourage you to review each provider&rsquo;s privacy policy. No personally identifiable information is sent to these providers — only your content (prompts and images) along with an anonymous request identifier.
@@ -128,12 +118,7 @@ export default function PrivacyPolicy() {
               <li><strong>Firebase Analytics:</strong> Collects anonymous usage data including app opens, feature usage, session duration, device info, and crash events. This data is aggregated and cannot identify individual users. Subject to <a href="https://firebase.google.com/support/privacy" className="text-brand-500 hover:underline">Firebase Privacy Policy</a>.</li>
             </ul>
 
-            <h3>4.3 Adapty</h3>
-            <p>
-              Adapty manages our subscription and in-app purchase infrastructure. Adapty receives transaction data from Apple to verify and manage your subscription status. Subject to <a href="https://adapty.io/privacy" className="text-brand-500 hover:underline">Adapty&rsquo;s Privacy Policy</a>.
-            </p>
-
-            <h3>4.4 Meta (Facebook) SDK</h3>
+            <h3>4.3 Meta (Facebook) SDK</h3>
             <p>
               We use the Meta SDK solely for install attribution purposes — to understand which marketing campaigns lead to app installs. We do NOT show advertisements in the App. The Meta SDK may collect:
             </p>
@@ -146,9 +131,9 @@ export default function PrivacyPolicy() {
               If you have opted out of tracking via Apple&rsquo;s App Tracking Transparency prompt, the Meta SDK will not track you across other apps and websites. Subject to <a href="https://www.facebook.com/privacy/policy/" className="text-brand-500 hover:underline">Meta&rsquo;s Privacy Policy</a>.
             </p>
 
-            <h3>4.5 Apple</h3>
+            <h3>4.4 Apple</h3>
             <p>
-              Apple processes all payment transactions through the App Store In-App Purchase system and may collect data in accordance with <a href="https://www.apple.com/legal/privacy/" className="text-brand-500 hover:underline">Apple&rsquo;s Privacy Policy</a>.
+              Apple distributes the App through the App Store and may collect data in accordance with <a href="https://www.apple.com/legal/privacy/" className="text-brand-500 hover:underline">Apple&rsquo;s Privacy Policy</a>.
             </p>
           </section>
 
@@ -157,7 +142,7 @@ export default function PrivacyPolicy() {
             <p>We use the information we collect for the following purposes:</p>
             <ul>
               <li>To provide the Services: processing your prompts and images through AI providers to generate video content</li>
-              <li>To manage your credit balance and subscription status via Adapty</li>
+              <li>To manage your credit balance</li>
               <li>To store your generation history so you can re-download recent videos</li>
               <li>To send push notifications (e.g., when your video generation is complete) — only if you have granted notification permission</li>
               <li>To analyze aggregated, anonymous usage patterns to improve the App (via Firebase Analytics)</li>
@@ -172,7 +157,7 @@ export default function PrivacyPolicy() {
             <h3>6.1 Our Backend Servers</h3>
             <p>We store the following data on our servers:</p>
             <ul>
-              <li><strong>Anonymous user metadata:</strong> Firebase Anonymous UID, account creation date, credit balance, subscription status. Retained for as long as the anonymous account exists.</li>
+              <li><strong>Anonymous user metadata:</strong> Firebase Anonymous UID, account creation date, credit balance. Retained for as long as the anonymous account exists.</li>
               <li><strong>Text prompts:</strong> Stored to maintain your generation history. Retained for as long as the anonymous account exists.</li>
               <li><strong>Generated videos:</strong> Stored temporarily to allow re-download. <strong>Automatically and permanently deleted after 7 days.</strong> You should save any videos you wish to keep to your device.</li>
               <li><strong>Uploaded images:</strong> Processed for video generation and deleted from our servers within 24 hours after processing is complete.</li>
@@ -180,7 +165,7 @@ export default function PrivacyPolicy() {
 
             <h3>6.2 Third-Party Retention</h3>
             <p>
-              Data shared with third-party services (OpenAI, Google, xAI, Firebase, Adapty, Meta) is retained according to each provider&rsquo;s own data retention policies. We encourage you to review their respective privacy policies linked in Section 4 above.
+              Data shared with third-party services (OpenAI, Firebase, Meta) is retained according to each provider&rsquo;s own data retention policies. We encourage you to review their respective privacy policies linked in Section 4 above.
             </p>
 
             <h3>6.3 Account Deletion</h3>
@@ -260,14 +245,14 @@ export default function PrivacyPolicy() {
           <section>
             <h2>12. International Data Transfers</h2>
             <p>
-              Your data (prompts, images, generated videos) may be processed in the United States or other countries where our service providers operate (including OpenAI, Google, and xAI). By using the Services, you consent to the transfer of your data to these jurisdictions, which may have data protection laws that differ from your jurisdiction.
+              Your data (prompts, images, generated videos) may be processed in the United States or other countries where our service providers operate (including OpenAI). By using the Services, you consent to the transfer of your data to these jurisdictions, which may have data protection laws that differ from your jurisdiction.
             </p>
           </section>
 
           <section>
             <h2>13. Limitation of Liability</h2>
             <p>
-              TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, WE SHALL NOT BE LIABLE FOR ANY UNAUTHORIZED ACCESS TO, USE OF, OR ALTERATION OF YOUR CONTENT OR DATA. WE SHALL NOT BE LIABLE FOR ANY ACTIONS TAKEN BY THIRD-PARTY AI PROVIDERS (OPENAI, GOOGLE, XAI) WITH RESPECT TO DATA TRANSMITTED TO THEM THROUGH OUR SERVICES.
+              TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, WE SHALL NOT BE LIABLE FOR ANY UNAUTHORIZED ACCESS TO, USE OF, OR ALTERATION OF YOUR CONTENT OR DATA. WE SHALL NOT BE LIABLE FOR ANY ACTIONS TAKEN BY THE THIRD-PARTY AI PROVIDER (OPENAI) WITH RESPECT TO DATA TRANSMITTED TO THEM THROUGH OUR SERVICES.
             </p>
             <p>
               WE ACT AS AN INTERMEDIARY AND DO NOT CONTROL THE DATA PROCESSING PRACTICES OF OUR AI PROVIDERS. YOUR USE OF THE SERVICES AND ANY DATA TRANSMITTED THROUGH THEM IS AT YOUR OWN RISK.
@@ -335,7 +320,7 @@ export default function PrivacyPolicy() {
 
             <h3>16.1 No Accounts and No Tracking</h3>
             <p>
-              UV Index has no accounts, no sign-in, no analytics, no advertising, and no tracking of any kind, and it contains no third-party SDKs. Unlike the AI Video Platform App, UV Index does not use Firebase, Adapty, or the Meta SDK. We do not collect your name, email address, or any other personal identifier through UV Index.
+              UV Index has no accounts, no sign-in, no analytics, no advertising, and no tracking of any kind, and it contains no third-party SDKs. Unlike the AI Video Platform App, UV Index does not use Firebase or the Meta SDK. We do not collect your name, email address, or any other personal identifier through UV Index.
             </p>
 
             <h3>16.2 Location</h3>

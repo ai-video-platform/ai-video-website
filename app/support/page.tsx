@@ -64,10 +64,7 @@ export default function Support() {
           <section>
             <h2>AI Video Platform</h2>
             <p>
-              For questions about credits, subscriptions, or video generation, email us with your anonymous user ID (available in the app&rsquo;s settings). Refunds for purchases are handled by Apple; you can request one at{" "}
-              <a href="https://reportaproblem.apple.com" className="text-brand-500 hover:underline">
-                reportaproblem.apple.com
-              </a>.
+              AI Video Platform is free to use, with free daily credits and no subscriptions or in-app purchases. For questions about credits or video generation, or to report content in the app, email us with your anonymous user ID (available in the app&rsquo;s settings).
             </p>
           </section>
 
