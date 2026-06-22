@@ -118,20 +118,7 @@ export default function PrivacyPolicy() {
               <li><strong>Firebase Analytics:</strong> Collects anonymous usage data including app opens, feature usage, session duration, device info, and crash events. This data is aggregated and cannot identify individual users. Subject to <a href="https://firebase.google.com/support/privacy" className="text-brand-500 hover:underline">Firebase Privacy Policy</a>.</li>
             </ul>
 
-            <h3>4.3 Meta (Facebook) SDK</h3>
-            <p>
-              We use the Meta SDK solely for install attribution purposes — to understand which marketing campaigns lead to app installs. We do NOT show advertisements in the App. The Meta SDK may collect:
-            </p>
-            <ul>
-              <li>App install and open events</li>
-              <li>Device identifiers (subject to Apple&rsquo;s App Tracking Transparency)</li>
-              <li>Attribution data (which ad or campaign led to the install)</li>
-            </ul>
-            <p>
-              If you have opted out of tracking via Apple&rsquo;s App Tracking Transparency prompt, the Meta SDK will not track you across other apps and websites. Subject to <a href="https://www.facebook.com/privacy/policy/" className="text-brand-500 hover:underline">Meta&rsquo;s Privacy Policy</a>.
-            </p>
-
-            <h3>4.4 Apple</h3>
+            <h3>4.3 Apple</h3>
             <p>
               Apple distributes the App through the App Store and may collect data in accordance with <a href="https://www.apple.com/legal/privacy/" className="text-brand-500 hover:underline">Apple&rsquo;s Privacy Policy</a>.
             </p>
@@ -146,7 +133,6 @@ export default function PrivacyPolicy() {
               <li>To store your generation history so you can re-download recent videos</li>
               <li>To send push notifications (e.g., when your video generation is complete) — only if you have granted notification permission</li>
               <li>To analyze aggregated, anonymous usage patterns to improve the App (via Firebase Analytics)</li>
-              <li>To measure the effectiveness of our marketing campaigns (via Meta SDK attribution)</li>
               <li>To detect and prevent fraud, abuse, and violations of our Terms of Use</li>
               <li>To comply with legal obligations</li>
             </ul>
@@ -165,7 +151,7 @@ export default function PrivacyPolicy() {
 
             <h3>6.2 Third-Party Retention</h3>
             <p>
-              Data shared with third-party services (OpenAI, Firebase, Meta) is retained according to each provider&rsquo;s own data retention policies. We encourage you to review their respective privacy policies linked in Section 4 above.
+              Data shared with third-party services (OpenAI, Firebase) is retained according to each provider&rsquo;s own data retention policies. We encourage you to review their respective privacy policies linked in Section 4 above.
             </p>
 
             <h3>6.3 Account Deletion</h3>
@@ -190,10 +176,7 @@ export default function PrivacyPolicy() {
           <section>
             <h2>8. App Tracking Transparency</h2>
             <p>
-              In compliance with Apple&rsquo;s App Tracking Transparency (ATT) framework, we will request your permission before tracking your activity across other companies&rsquo; apps and websites. This applies to the Meta SDK used for attribution.
-            </p>
-            <p>
-              If you decline the ATT prompt or disable tracking in iOS Settings, we will not track you across other apps and websites. Core App functionality (video generation, editing, exporting) is not affected by your ATT choice.
+              The App does not track you across other companies&rsquo; apps or websites and does not use the advertising identifier (IDFA). Because we do not engage in tracking as defined by Apple&rsquo;s App Tracking Transparency (ATT) framework, no ATT permission prompt is shown.
             </p>
           </section>
 
@@ -320,7 +303,7 @@ export default function PrivacyPolicy() {
 
             <h3>16.1 No Accounts and No Tracking</h3>
             <p>
-              UV Index has no accounts, no sign-in, no analytics, no advertising, and no tracking of any kind, and it contains no third-party SDKs. Unlike the AI Video Platform App, UV Index does not use Firebase or the Meta SDK. We do not collect your name, email address, or any other personal identifier through UV Index.
+              UV Index has no accounts, no sign-in, no analytics, no advertising, and no tracking of any kind, and it contains no third-party SDKs. Unlike the AI Video Platform App, UV Index does not use Firebase. We do not collect your name, email address, or any other personal identifier through UV Index.
             </p>
 
             <h3>16.2 Location</h3>
