@@ -21,7 +21,7 @@ export default function PrivacyPolicy() {
           Privacy Policy
         </h1>
         <p className="mb-12 text-sm text-text-tertiary">
-          Effective Date: May 10, 2026 &middot; Last Updated: June 19, 2026
+          Effective Date: May 10, 2026 &middot; Last Updated: June 24, 2026
         </p>
 
         <div className="prose-legal space-y-8 text-text-secondary [&_h2]:mb-4 [&_h2]:mt-12 [&_h2]:text-xl [&_h2]:font-semibold [&_h2]:text-text-primary [&_h3]:mb-2 [&_h3]:mt-6 [&_h3]:text-base [&_h3]:font-semibold [&_h3]:text-text-primary [&_p]:leading-relaxed [&_ul]:ml-4 [&_ul]:list-disc [&_ul]:space-y-1 [&_li]:leading-relaxed">
@@ -95,6 +95,16 @@ export default function PrivacyPolicy() {
             <p>
               Sections 1 through 14 of this policy describe the AI Video Platform App and Website. Disclosures specific to our other applications appear in Section 15 (Chaty) and Section 16 (UV Index); where those sections differ from the general statements above, the app-specific section governs for that app. In particular, the UV Index app can use your device location as described in Section 16.2.
             </p>
+
+            <h3 id="face-data" className="scroll-mt-24">3.5 Photos and Faces</h3>
+            <p>Some features let you upload a photo to animate it, and that photo may contain a person&rsquo;s face. We want to be clear about how this is handled:</p>
+            <ul>
+              <li>We do not perform facial recognition, face matching, identity detection, age estimation, or any other biometric analysis. We do not create, derive, or store a faceprint, facial template, facial geometry, or any other biometric identifier.</li>
+              <li>An uploaded photo, including any face it contains, is used for one purpose only: to generate the video you requested. Faces are never used to identify, recognize, profile, or track any individual, and are never used for advertising.</li>
+              <li>The photo, including any face it contains, is sent to our third-party AI provider, OpenAI (Sora), solely to generate your video, over an encrypted connection.</li>
+              <li>Uploaded photos are deleted from our servers within 24 hours after processing is complete. We do not retain face data or any biometric identifier.</li>
+              <li>You may only upload photos of yourself or of people who have given you permission to use their likeness. Creating videos of real, identifiable people without their consent is prohibited by our Terms of Use.</li>
+            </ul>
           </section>
 
           <section>
@@ -109,7 +119,10 @@ export default function PrivacyPolicy() {
               <li><strong>OpenAI (Sora)</strong> &mdash; Text prompts and uploaded images are sent to OpenAI&rsquo;s API for video generation. Subject to <a href="https://openai.com/policies/privacy-policy" className="text-brand-500 hover:underline">OpenAI&rsquo;s Privacy Policy</a>.</li>
             </ul>
             <p>
-              We act as an intermediary between you and these providers. We send your prompts and images to enable video generation but do not control how these providers process, store, or use data once received. We strongly encourage you to review each provider&rsquo;s privacy policy. No personally identifiable information is sent to these providers — only your content (prompts and images) along with an anonymous request identifier.
+              We act as an intermediary between you and these providers. We send your prompts and images to enable video generation but do not control how these providers process, store, or use data once received. We strongly encourage you to review each provider&rsquo;s privacy policy. No personally identifiable information is sent to these providers. We send only your content (prompts and images) along with an anonymous request identifier.
+            </p>
+            <p>
+              Before any of this data is sent, we obtain your permission inside the app. The first time you create a video, the App shows a consent screen that names the AI provider, states that your text prompts and any photos you provide will be sent to it for video generation, and requires you to agree before anything is transmitted. We have reviewed our AI provider&rsquo;s privacy and security commitments and require that any third-party AI provider we use protect the content you submit with safeguards consistent with this Privacy Policy. We do not use your prompts, images, or generated videos to train our own models, and your content is sent to our AI provider solely to generate the video you requested, not to train that provider&rsquo;s models.
             </p>
 
             <h3>4.2 Firebase (Google)</h3>
@@ -183,7 +196,7 @@ export default function PrivacyPolicy() {
           <section>
             <h2>9. Children&rsquo;s Privacy</h2>
             <p>
-              Our App is rated 17+ on the Apple App Store. The Services are not intended for use by individuals under the age of 17. We do not knowingly collect any information from children under 17. Since our App uses anonymous authentication and collects no personally identifiable information, we cannot determine the age of our users. If you believe a child under 17 is using our Services inappropriately, please contact us at admin@aivideoplatform.ai.
+              Our App is rated 18+ on the Apple App Store. The Services are not intended for use by individuals under the age of 18. We do not knowingly collect any information from children under 18. Since our App uses anonymous authentication and collects no personally identifiable information, we cannot determine the age of our users. If you believe a child under 18 is using our Services inappropriately, please contact us at admin@aivideoplatform.ai.
             </p>
           </section>
 
@@ -337,7 +350,7 @@ export default function PrivacyPolicy() {
 
             <h3>16.6 Children&rsquo;s Privacy</h3>
             <p>
-              UV Index has no accounts, no social features, and no advertising, and it does not knowingly collect personal information from anyone, including children. The 17+ rating discussed in Section 9 applies to the AI Video Platform App, not to UV Index, which carries its own App Store age rating.
+              UV Index has no accounts, no social features, and no advertising, and it does not knowingly collect personal information from anyone, including children. The 18+ rating discussed in Section 9 applies to the AI Video Platform App, not to UV Index, which carries its own App Store age rating.
             </p>
           </section>
 
