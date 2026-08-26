@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 export default function AppStoreBadge({
-  href = "https://apps.apple.com",
+  href = "https://apps.apple.com/app/id6769767207",
   className = "",
 }: {
   href?: string

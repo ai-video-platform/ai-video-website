@@ -24,7 +24,7 @@ export default function Navbar() {
             Pricing
           </a>
           <a
-            href="https://apps.apple.com"
+            href="https://apps.apple.com/app/id6769767207"
             className="text-sm font-medium text-brand-500 transition-opacity hover:opacity-70"
           >
             Get the App
@@ -50,7 +50,7 @@ export default function Navbar() {
             <a href="#features" onClick={() => setMobileOpen(false)} className="text-sm text-text-secondary">Features</a>
             <a href="#how-it-works" onClick={() => setMobileOpen(false)} className="text-sm text-text-secondary">How It Works</a>
             <a href="#pricing" onClick={() => setMobileOpen(false)} className="text-sm text-text-secondary">Pricing</a>
-            <a href="https://apps.apple.com" className="text-sm font-medium text-brand-500">Get the App</a>
+            <a href="https://apps.apple.com/app/id6769767207" className="text-sm font-medium text-brand-500">Get the App</a>
           </div>
         </div>
       )}

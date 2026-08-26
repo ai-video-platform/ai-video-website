@@ -8,12 +8,12 @@ const faqs = [
   {
     question: "Is AI Video free?",
     answer:
-      "Yes. AI Video is completely free to download and use. You get free credits every day to generate videos. There are no subscriptions and no in-app purchases.",
+      "AI Video is free to download and try. You get free credits when you sign in, plus a free daily gift in the app, enough to start creating right away. If you want more, the app offers optional auto-renewing subscriptions and one-time credit packs, with prices always shown before you buy.",
   },
   {
     question: "How do credits work?",
     answer:
-      "Credits are used each time you generate a video. You receive free credits daily, and a credit is refunded automatically if a generation fails. Credits have no monetary value and cannot be purchased.",
+      "Credits are used each time you generate a video. You receive free starter credits and a free daily gift, and you can get more with a subscription or a credit pack. Credits are refunded automatically if a generation fails, and they have no monetary value outside the app.",
   },
   {
     question: "What can I create?",

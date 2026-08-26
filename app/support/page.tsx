@@ -64,7 +64,7 @@ export default function Support() {
           <section>
             <h2>AI Video Platform</h2>
             <p>
-              AI Video Platform is free to use, with free daily credits and no subscriptions or in-app purchases. For questions about credits or video generation, or to report content in the app, email us with your anonymous user ID (available in the app&rsquo;s settings).
+              AI Video Platform is free to download and try, with free credits when you sign in and a free daily gift in the app. Optional subscriptions and one-time credit packs are available for more credits, billed through your App Store account. For questions about credits, purchases, or video generation, or to report content in the app, email us with your anonymous user ID (available in the app&rsquo;s settings). To manage or cancel a subscription, or to request a refund, use your App Store account settings (Apple processes all payments).
             </p>
           </section>
 

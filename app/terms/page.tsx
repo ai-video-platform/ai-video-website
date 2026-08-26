@@ -21,7 +21,7 @@ export default function TermsOfUse() {
           Terms of Use
         </h1>
         <p className="mb-12 text-sm text-text-tertiary">
-          Effective Date: May 10, 2026 &middot; Last Updated: June 19, 2026
+          Effective Date: May 10, 2026 &middot; Last Updated: August 26, 2026
         </p>
 
         <div className="prose-legal space-y-8 text-text-secondary [&_h2]:mb-4 [&_h2]:mt-12 [&_h2]:text-xl [&_h2]:font-semibold [&_h2]:text-text-primary [&_h3]:mb-2 [&_h3]:mt-6 [&_h3]:text-base [&_h3]:font-semibold [&_h3]:text-text-primary [&_p]:leading-relaxed [&_ul]:ml-4 [&_ul]:list-disc [&_ul]:space-y-1 [&_li]:leading-relaxed">
@@ -86,22 +86,48 @@ export default function TermsOfUse() {
           <section>
             <h2>4. Credits</h2>
 
-            <h3>4.1 The App Is Free</h3>
+            <h3>4.1 Free to Download, Optional Purchases</h3>
             <p>
-              The App is free to download and use. We do not offer subscriptions, and there are no in-app purchases. Generating videos is free.
+              The App is free to download and try. New accounts receive free starting credits, and additional free credits may be offered from time to time (for example, as a daily gift). The App also offers optional paid products: auto-renewing subscriptions and one-time consumable credit packs, described in Section 4.3.
             </p>
 
             <h3>4.2 Credit System</h3>
             <p>
-              The Services operate on a credit-based system. Credits are required to generate videos and perform certain AI editing operations, and are provided to you free of charge (for example, as a daily allowance).
+              The Services operate on a credit-based system. Credits are required to generate videos and perform certain AI editing operations. Credits may be granted for free or obtained through a purchase.
             </p>
             <ul>
               <li>The number of credits required per operation varies based on the type, duration, quality, and complexity of the requested output</li>
-              <li>Credits are provided for free, have NO monetary value, and cannot be purchased, sold, or redeemed for cash under any circumstances</li>
+              <li>Credits have NO monetary value outside the App and cannot be sold, transferred, or redeemed for cash under any circumstances</li>
               <li>Credits are non-transferable between accounts or devices</li>
-              <li>We reserve the right to modify credit costs and free allowances at any time with or without notice</li>
+              <li>We reserve the right to modify credit costs, free allowances, and the credit amounts included with paid products at any time with or without notice</li>
               <li>If video generation fails due to a provider error, credits will be refunded to your account automatically</li>
             </ul>
+
+            <h3>4.3 Subscriptions and Purchases</h3>
+            <p>
+              The App offers auto-renewing subscriptions (for example, weekly, monthly, or yearly) that grant credits, and one-time credit packs. All prices are displayed in the App Store in your local currency before you confirm any purchase.
+            </p>
+            <p>
+              <strong>Billing.</strong> Payment is charged to your Apple Account at confirmation of purchase and processed by Apple. We never receive or store your payment details.
+            </p>
+            <p>
+              <strong>Auto-renewal.</strong> Subscriptions renew automatically for the same period and price unless cancelled at least 24 hours before the end of the current period. Your Apple Account is charged for renewal within 24 hours prior to the end of the current period. You can turn off auto-renewal at any time in your device Settings under your Apple Account, Subscriptions; cancellation takes effect at the end of the current billing period, and you keep access until then. Deleting the App does not cancel a subscription.
+            </p>
+            <p>
+              <strong>Free trial.</strong> Where offered, a free trial converts to a paid subscription at the price shown unless you cancel at least 24 hours before the trial ends. Any unused portion of a free trial is forfeited when you purchase a subscription.
+            </p>
+            <p>
+              <strong>Credit packs.</strong> Credit packs are one-time consumable purchases. The purchased credits are added to your account balance and are subject to the credit terms in Section 4.2, including forfeiture on account deletion.
+            </p>
+            <p>
+              <strong>Refunds.</strong> Purchases are processed by Apple, and refund requests are handled by Apple under App Store rules. Except where required by law, purchases are non-refundable, and credits already spent on generations are not restored.
+            </p>
+            <p>
+              <strong>Price changes.</strong> If a subscription price changes, Apple will notify you in accordance with App Store rules, and where required will ask for your consent before the new price applies. If you do not agree, your subscription ends at the close of the current period.
+            </p>
+            <p>
+              <strong>Important:</strong> Your account is anonymous and tied to your device. If you uninstall the App or lose access to your account, purchased credits may be permanently lost as described in Section 2. Use Restore Purchases in the App to restore active subscriptions on the same Apple Account.
+            </p>
 
           </section>
 
@@ -232,7 +258,7 @@ export default function TermsOfUse() {
               <li>ANY DAMAGES ARISING FROM THIRD-PARTY AI PROVIDER ACTIONS OR FAILURES</li>
             </ul>
             <p>
-              IN NO EVENT SHALL OUR TOTAL AGGREGATE LIABILITY FOR ALL CLAIMS ARISING OUT OF OR RELATING TO THESE TERMS OR THE SERVICES EXCEED ONE HUNDRED U.S. DOLLARS (US $100.00). THE APP IS PROVIDED TO YOU FREE OF CHARGE.
+              IN NO EVENT SHALL OUR TOTAL AGGREGATE LIABILITY FOR ALL CLAIMS ARISING OUT OF OR RELATING TO THESE TERMS OR THE SERVICES EXCEED THE GREATER OF (A) THE AMOUNTS YOU PAID US THROUGH THE APP IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM, OR (B) ONE HUNDRED U.S. DOLLARS (US $100.00).
             </p>
             <p>
               THESE LIMITATIONS APPLY TO ANY THEORY OF LIABILITY, WHETHER BASED ON WARRANTY, CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY, OR ANY OTHER LEGAL THEORY, AND WHETHER OR NOT WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
@@ -409,7 +435,7 @@ export default function TermsOfUse() {
           <section>
             <h2>18. UV Index iOS App</h2>
             <p>
-              The following additional terms apply specifically to the UV Index iOS application (&ldquo;UV Index&rdquo;), the sun and UV forecast app also published by AI Video Platform. These Terms govern your download and use of UV Index, and references to the &ldquo;App&rdquo; and the &ldquo;Services&rdquo; in these Terms include UV Index except as modified in this section. Where this section conflicts with other provisions in these Terms, this section governs with respect to UV Index. UV Index is free and contains no accounts, credits, subscriptions, or purchases, so Sections 2 and 4 do not apply to it. The 17+ age requirement in Section 1 applies to the AI Video Platform App; you may use UV Index if you meet its App Store age rating, and if you are under the age of majority in your jurisdiction, you may use UV Index only if a parent or legal guardian reviews and accepts these Terms on your behalf.
+              The following additional terms apply specifically to the UV Index iOS application (&ldquo;UV Index&rdquo;), the sun and UV forecast app also published by AI Video Platform. These Terms govern your download and use of UV Index, and references to the &ldquo;App&rdquo; and the &ldquo;Services&rdquo; in these Terms include UV Index except as modified in this section. Where this section conflicts with other provisions in these Terms, this section governs with respect to UV Index. UV Index is free to download and its core features are free to use; it contains no accounts, and its optional paid tier, UV Index Pro, is described in Section 18.6. Sections 2 and 4 (accounts and credits) do not apply to UV Index. The 17+ age requirement in Section 1 applies to the AI Video Platform App; you may use UV Index if you meet its App Store age rating, and if you are under the age of majority in your jurisdiction, you may use UV Index only if a parent or legal guardian reviews and accepts these Terms on your behalf.
             </p>
 
             <h3>18.1 What UV Index Does</h3>
@@ -435,6 +461,29 @@ export default function TermsOfUse() {
             <h3>18.5 Apple Health</h3>
             <p>
               If you connect Apple Health, UV Index writes your finished sun sessions (time in daylight and UV exposure) to Health on your device. How this data is handled is described in Section 16 of our Privacy Policy.
+            </p>
+
+            <h3>18.6 UV Index Pro: Subscriptions and Purchases</h3>
+            <p>
+              UV Index offers an optional paid tier, UV Index Pro (&ldquo;Pro&rdquo;), which unlocks additional features such as the full week UV forecast, personalized alerts, and more. Pro is available as an auto-renewing subscription (monthly or yearly) or as a one-time lifetime purchase. All prices are displayed in the App Store in your local currency before you confirm any purchase.
+            </p>
+            <p>
+              <strong>Billing.</strong> Payment is charged to your Apple Account at confirmation of purchase and processed by Apple. We never receive or store your payment details.
+            </p>
+            <p>
+              <strong>Auto-renewal.</strong> Subscriptions renew automatically for the same period and price unless cancelled at least 24 hours before the end of the current period. Your Apple Account is charged for renewal within 24 hours prior to the end of the current period. You can turn off auto-renewal at any time in your device Settings under your Apple Account, Subscriptions; cancellation takes effect at the end of the current billing period, and you keep Pro access until then. Deleting the app does not cancel a subscription.
+            </p>
+            <p>
+              <strong>Free trial.</strong> Where offered, a free trial (for example, 7 days on the yearly plan) converts to a paid subscription at the price shown unless you cancel at least 24 hours before the trial ends. Any unused portion of a free trial is forfeited when you purchase a subscription or the lifetime unlock.
+            </p>
+            <p>
+              <strong>Lifetime purchase.</strong> The lifetime option is a one-time, non-consumable purchase tied to your Apple Account. It is not a subscription and does not renew. You can restore it (and active subscriptions) on a new device with Restore Purchases inside the app.
+            </p>
+            <p>
+              <strong>Price changes.</strong> If a subscription price changes, Apple will notify you in accordance with App Store rules, and where required will ask for your consent before the new price applies. If you do not agree, your subscription ends at the close of the current period.
+            </p>
+            <p>
+              <strong>Refunds.</strong> Purchases are processed by Apple, and refunds are handled by Apple under App Store terms. You can request a refund at <a href="https://reportaproblem.apple.com" className="text-brand-500 hover:underline">reportaproblem.apple.com</a>. Except where required by law, amounts already charged are not refundable by us.
             </p>
           </section>
 

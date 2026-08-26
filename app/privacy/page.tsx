@@ -21,7 +21,7 @@ export default function PrivacyPolicy() {
           Privacy Policy
         </h1>
         <p className="mb-12 text-sm text-text-tertiary">
-          Effective Date: May 10, 2026 &middot; Last Updated: June 24, 2026
+          Effective Date: May 10, 2026 &middot; Last Updated: August 26, 2026
         </p>
 
         <div className="prose-legal space-y-8 text-text-secondary [&_h2]:mb-4 [&_h2]:mt-12 [&_h2]:text-xl [&_h2]:font-semibold [&_h2]:text-text-primary [&_h3]:mb-2 [&_h3]:mt-6 [&_h3]:text-base [&_h3]:font-semibold [&_h3]:text-text-primary [&_p]:leading-relaxed [&_ul]:ml-4 [&_ul]:list-disc [&_ul]:space-y-1 [&_li]:leading-relaxed">
@@ -80,7 +80,7 @@ export default function PrivacyPolicy() {
 
             <h3>3.3 Purchases</h3>
             <p>
-              The App is free. We do not offer subscriptions or in-app purchases, and we do not collect or process any payment, transaction, or billing information.
+              The App is free to download and try, and offers optional in-app purchases (auto-renewing subscriptions and one-time credit packs). All payments are processed by Apple through your Apple Account; we never receive or store your name, billing address, or payment card details. To deliver what you bought, we and our purchase infrastructure provider (Adapty) receive transaction records from Apple, such as the product purchased, transaction identifiers, purchase date, and subscription status, linked only to your anonymous user ID. We use this information solely to credit your account, maintain your subscription benefits, and prevent fraud.
             </p>
 
             <h3>3.4 Information We Do NOT Collect</h3>
@@ -133,7 +133,12 @@ export default function PrivacyPolicy() {
 
             <h3>4.3 Apple</h3>
             <p>
-              Apple distributes the App through the App Store and may collect data in accordance with <a href="https://www.apple.com/legal/privacy/" className="text-brand-500 hover:underline">Apple&rsquo;s Privacy Policy</a>.
+              Apple distributes the App through the App Store and processes all in-app purchase payments. Apple may collect data in accordance with <a href="https://www.apple.com/legal/privacy/" className="text-brand-500 hover:underline">Apple&rsquo;s Privacy Policy</a>.
+            </p>
+
+            <h3>4.4 Adapty</h3>
+            <p>
+              We use <strong>Adapty</strong> as our in-app purchase infrastructure. Adapty receives App Store transaction records (product purchased, transaction identifiers, purchase date, subscription status) together with your anonymous user ID, so that purchases and subscriptions can be validated and delivered to your account. Adapty does not receive your name, payment card details, or content. Subject to <a href="https://adapty.io/privacy/" className="text-brand-500 hover:underline">Adapty&rsquo;s Privacy Policy</a>.
             </p>
           </section>
 
@@ -142,7 +147,7 @@ export default function PrivacyPolicy() {
             <p>We use the information we collect for the following purposes:</p>
             <ul>
               <li>To provide the Services: processing your prompts and images through AI providers to generate video content</li>
-              <li>To manage your credit balance</li>
+              <li>To manage your credit balance, and to validate and deliver in-app purchases and subscription benefits</li>
               <li>To store your generation history so you can re-download recent videos</li>
               <li>To send push notifications (e.g., when your video generation is complete) — only if you have granted notification permission</li>
               <li>To analyze aggregated, anonymous usage patterns to improve the App (via Firebase Analytics)</li>
@@ -156,7 +161,7 @@ export default function PrivacyPolicy() {
             <h3>6.1 Our Backend Servers</h3>
             <p>We store the following data on our servers:</p>
             <ul>
-              <li><strong>Anonymous user metadata:</strong> Firebase Anonymous UID, account creation date, credit balance. Retained for as long as the anonymous account exists.</li>
+              <li><strong>Anonymous user metadata:</strong> Firebase Anonymous UID, account creation date, credit balance, and purchase and subscription records. Retained for as long as the anonymous account exists.</li>
               <li><strong>Text prompts:</strong> Stored to maintain your generation history. Retained for as long as the anonymous account exists.</li>
               <li><strong>Generated videos:</strong> Stored temporarily to allow re-download. <strong>Automatically and permanently deleted after 7 days.</strong> You should save any videos you wish to keep to your device.</li>
               <li><strong>Uploaded images:</strong> Processed for video generation and deleted from our servers within 24 hours after processing is complete.</li>
@@ -164,7 +169,7 @@ export default function PrivacyPolicy() {
 
             <h3>6.2 Third-Party Retention</h3>
             <p>
-              Data shared with third-party services (OpenAI, Firebase) is retained according to each provider&rsquo;s own data retention policies. We encourage you to review their respective privacy policies linked in Section 4 above.
+              Data shared with third-party services (OpenAI, Firebase, Adapty) is retained according to each provider&rsquo;s own data retention policies. We encourage you to review their respective privacy policies linked in Section 4 above.
             </p>
 
             <h3>6.3 Account Deletion</h3>

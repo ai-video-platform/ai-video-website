@@ -7,7 +7,7 @@ const includedFeatures = [
   "Text to video and photo to video",
   "Viral dance templates",
   "Save to your camera roll and share anywhere",
-  "Free daily credits, refreshed every day",
+  "Free starter credits plus a free daily gift",
 ]
 
 export default function Pricing() {
@@ -16,19 +16,20 @@ export default function Pricing() {
       <div className="mx-auto max-w-3xl">
         <AnimatedSection className="mb-12 text-center">
           <span className="mb-4 inline-block rounded-full bg-brand-50 px-3 py-1 text-xs font-semibold text-brand-600">
-            100% Free
+            Try It Free
           </span>
-          <h2 className="heading-lg mb-4">Free to use. No subscriptions.</h2>
+          <h2 className="heading-lg mb-4">Start for free. Upgrade when you want more.</h2>
           <p className="body-lg mx-auto max-w-2xl">
-            AI Video is completely free. Every day you get free credits to create
-            videos. There are no subscriptions and no in-app purchases.
+            AI Video is free to download and try. You get free credits when you
+            sign in, plus a free daily gift in the app. Want more? Choose an
+            optional subscription or a one-time credit pack.
           </p>
         </AnimatedSection>
 
         <AnimatedSection>
           <div className="rounded-2xl border border-surface-200 bg-white p-8">
             <h3 className="mb-6 text-lg font-semibold text-text-primary">
-              Everything included, for free
+              Start creating for free
             </h3>
             <ul className="space-y-3">
               {includedFeatures.map((feature) => (
@@ -58,8 +59,12 @@ export default function Pricing() {
 
         <div className="mt-8 text-center text-xs leading-relaxed text-text-tertiary">
           <p>
-            AI Video is free to download and use. Free credits are provided daily,
-            have no monetary value, and cannot be purchased.
+            AI Video is free to download and try. Optional auto-renewing
+            subscriptions and one-time credit packs are available in the app, with
+            prices always shown before you buy. Subscriptions renew automatically
+            unless cancelled at least 24 hours before the current period ends; manage
+            or cancel anytime in your App Store account settings. Credits have no
+            monetary value outside the app.
           </p>
           <p className="mt-2">
             <a href="/privacy" className="underline hover:text-text-secondary">
