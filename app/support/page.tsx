@@ -17,6 +17,16 @@ export default function Support() {
           &larr; Back to home
         </Link>
 
+        <a
+          href="/vidart/support"
+          className="mb-10 flex items-center justify-between gap-4 rounded-2xl border border-brand-500 bg-brand-50 px-5 py-4 text-text-primary hover:bg-brand-100 transition-colors"
+        >
+          <span>
+            <strong className="font-semibold">Using VidArt AI?</strong> Go to VidArt AI Support.
+          </span>
+          <span aria-hidden="true" className="text-brand-500">&rarr;</span>
+        </a>
+
         <h1 className="mb-4 text-4xl font-semibold tracking-apple-tight text-text-primary">
           Support
         </h1>
