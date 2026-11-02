@@ -7,6 +7,10 @@ const nextConfig = {
     return [
       { source: '/vidart', destination: 'https://vidart-legal.vercel.app/vidart' },
       { source: '/vidart/:path*', destination: 'https://vidart-legal.vercel.app/vidart/:path*' },
+      // Ring Sizer's pages: their own Vercel project (ringsizer-legal, source
+      // in the Ring Sizer repo's legal-site/), forwarded the same way.
+      { source: '/ringsizer', destination: 'https://ringsizer-legal.vercel.app/ringsizer' },
+      { source: '/ringsizer/:path*', destination: 'https://ringsizer-legal.vercel.app/ringsizer/:path*' },
     ]
   },
 }
